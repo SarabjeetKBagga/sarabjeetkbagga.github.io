@@ -1,1 +1,57 @@
-Hello Sarab
+<!DOCTYPE html>
+<html lang="en-US" ng-app="sarabjeet" style="height:100%; /*overflow-y:hidden*/">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sarabjeet Kaur</title>
+    <meta name="description" content="My Profile.">
+
+    <script src="http://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <link href="css/main.css" rel="stylesheet ">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.16/angular-animate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.16/angular-route.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/angular-ui/bower-ui-grid/master/ui-grid.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.16/angular-aria.min.js"></script>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+    <script src="https://cdn.rawgit.com/angular-ui/bower-ui-grid/master/ui-grid.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+</head>
+
+<body ng-controller="mainCtrl" style="height:100%; /*overflow-y:hidden*/">
+
+    <div class="wrap no-pad">
+        <div class="container-fluid no-pad">
+            <div class="row-fluid">
+                <div ng-view></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer navbar-fixed-bottom" style="background-color:black;height: 50px;">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="col-sm-12 text-muted">
+                    <div class="pull-right">
+                        <small><strong>sarabjeetkbagga@gmail.com</strong></small>
+                        <h4>Bangalore</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
